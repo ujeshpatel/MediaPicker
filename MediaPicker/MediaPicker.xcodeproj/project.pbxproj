@@ -15,8 +15,6 @@
 		1E49B3941ED55C6B0036153A /* MediaPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E49B3931ED55C6B0036153A /* MediaPickerTests.swift */; };
 		1E49B39F1ED55C6B0036153A /* MediaPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E49B39E1ED55C6B0036153A /* MediaPickerUITests.swift */; };
 		1E49B3BC1ED5656E0036153A /* MediaPickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E49B3BB1ED5656E0036153A /* MediaPickerHelper.swift */; };
-		1E49B3BF1ED588280036153A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E49B3BE1ED588280036153A /* AssetsLibrary.framework */; };
-		1E49B3C11ED5883C0036153A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E49B3C01ED5883C0036153A /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E49B3C11ED5883C0036153A /* Photos.framework in Frameworks */,
-				1E49B3BF1ED588280036153A /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
