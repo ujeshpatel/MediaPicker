@@ -1,13 +1,15 @@
 # MediaPicker
 
+Platform : iOS
+
 MediaPicker Help to pick Image and video from Photos or Camera Source 
 
 copy 'MediaPickerHelper.swift' File in your Project 
 
-Add code on button action 
-```Swift 3 
-//For select Video From iPhone
- @IBAction func selectVideoAction(_ sender: Any) {
+
+For select Video From iPhone
+
+``` @IBAction func selectVideoAction(_ sender: Any) {
         //Init Picker Methods
         mediaPickerhelper = MediaPickerHelper(viewController: self, isForVideo : true, imageCallback: nil, videoCallback: {
             url in
@@ -22,8 +24,10 @@ Add code on button action
         //For Display action sheet
         mediaPickerhelper?.showPhotoSourceSelection()
     }
-//For select Image From iPhone
-@IBAction func selectImageAction(_ sender: Any) {
+```
+For select Image From iPhone
+
+```@IBAction func selectImageAction(_ sender: Any) {
         //Init Picker Methods
         mediaPickerhelper = MediaPickerHelper(viewController: self, isForVideo : false, imageCallback: {
             image in
