@@ -45,4 +45,10 @@ For select Image From iPhone
     }
 
 ```
+
+
+TODO TASK:
+1. Set Limits with max seconds in video option (like only 30sec video needed)
+
+
 Thank you 
