@@ -17,7 +17,7 @@ For select Video From iPhone
         })
         
         // it's Optional
-        mediaPickerhelper?.titleForActionSheet = "Select option for upload image"
+        mediaPickerhelper?.titleForActionSheet = "Select option for upload Video"
         mediaPickerhelper?.titleForCameraButton = "From Camera"
         mediaPickerhelper?.titleForPhotosButton = "From Photos"
        
@@ -35,7 +35,7 @@ For select Image From iPhone
         }, videoCallback: nil)
         
         // it's Optional
-        mediaPickerhelper?.titleForActionSheet = "Select option for upload Video"
+        mediaPickerhelper?.titleForActionSheet = "Select option for upload Image"
         mediaPickerhelper?.titleForCameraButton = "by Camera"
         mediaPickerhelper?.titleForPhotosButton = "by Photos"
         
